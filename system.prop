@@ -112,5 +112,13 @@ ro.config.sdha_apps_bg_max=64
 ro.config.sdha_apps_bg_min=8
 ro.config.avoid_gfx_accel=true
 
-#Disbale blur on app launch 
-#ro.launcher.blur.appLaunch=0
+# Disable blur on app launch
+ro.launcher.blur.appLaunch=0
+
+# Disable vsync for cpu rendered apps
+debug.cpurend.vsync=false
+
+# ZRAM writeback
+ro.zram.mark_idle_delay_mins=60
+ro.zram.first_wb_delay_mins=180
+ro.zram.periodic_wb_delay_hours=24
