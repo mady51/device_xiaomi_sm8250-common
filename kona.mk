@@ -367,6 +367,10 @@ PRODUCT_SOONG_NAMESPACES += \
 # Public libraries
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/public.libraries.txt:$(TARGET_COPY_OUT_VENDOR)/etc/public.libraries.txt
+ 
+# Prebuilt Packages
+PRODUCT_PACKAGES += \
+    GCamGo   
 
 # QMI
 PRODUCT_PACKAGES += \
