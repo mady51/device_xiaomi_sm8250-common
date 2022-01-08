@@ -110,4 +110,4 @@ ro.config.sdha_apps_bg_min=8
 ro.config.avoid_gfx_accel=true
 
 #Disbale blur on app launch 
-ro.launcher.blur.appLaunch=0
+#ro.launcher.blur.appLaunch=0
