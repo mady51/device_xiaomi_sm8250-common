@@ -507,6 +507,3 @@ PRODUCT_CFI_INCLUDE_PATHS += \
 
 # Inherit the proprietary files
 $(call inherit-product, vendor/xiaomi/sm8250-common/sm8250-common-vendor.mk)
-
-# UDFPS animations
-EXTRA_UDFPS_ANIMATIONS := true
