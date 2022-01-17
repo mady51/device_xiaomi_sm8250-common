@@ -165,6 +165,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     Snap
 
+# Charger
+PRODUCT_PACKAGES += \
+    libsuspend
+
 # Configstore
 PRODUCT_PACKAGES += \
     disable_configstore
