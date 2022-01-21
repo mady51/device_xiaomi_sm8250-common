@@ -207,6 +207,9 @@ persist.vendor.ims.disableQXDMLogs=1
 debug.stagefright.ccodec=4
 debug.stagefright.omx_default_rank=0
 
+# Netflix
+ro.netflix.bsp_rev=Q8250-19134-1
+
 # NFC
 ro.camera.notify_nfc=1
 
