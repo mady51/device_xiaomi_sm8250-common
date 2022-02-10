@@ -368,6 +368,11 @@ case "$target" in
     ;;
 esac
 
+# Delete data/system/storage.xml
+rm -rf /data/system/storage.xml
+touch /data/system/storage.xml
+chattr +i /data/system/storage.xml
+
 chown -h system /sys/devices/system/cpu/cpufreq/ondemand/sampling_rate
 chown -h system /sys/devices/system/cpu/cpufreq/ondemand/sampling_down_factor
 chown -h system /sys/devices/system/cpu/cpufreq/ondemand/io_is_busy
