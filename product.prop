@@ -1,6 +1,3 @@
-# Audio (Dolby)
-ro.control_privapp_permissions=log
-
 # Dex2oat
 dalvik.vm.dex2oat64.enabled=true
 
