@@ -1,6 +1,6 @@
 # Processor Model
-PRODUCT_PROPERTY_OVERRIDES += \
-ro.processor.model = SD870
+#PRODUCT_PROPERTY_OVERRIDES += \
+#ro.processor.model = SD870
 
 # Audio
 persist.audio.button_jack.profile=volume
