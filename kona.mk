@@ -158,7 +158,7 @@ PRODUCT_PACKAGES += \
     libstdc++.vendor
 
 PRODUCT_PACKAGES += \
-    Snap
+    GoogleCamera
 
 # Charger
 PRODUCT_PACKAGES += \
