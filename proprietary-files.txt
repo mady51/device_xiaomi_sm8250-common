@@ -2,6 +2,7 @@
 
 # ADSP - from LA.UM.9.12.r1-13300-SMxx50.QSSI12.0
 vendor/bin/adsprpcd|2886f08eb674b6ced8bf6e9bb54761094ee7b74c
+vendor/lib/libadsp_default_listener.so|92ca2faf693eb488394440b94b6deb73fe9504e2
 vendor/etc/init/vendor.qti.adsprpc-service.rc|54588df8e7da58c66838028d2284986b966c2d37
 vendor/lib/libadsprpc.so|e4f9fc5c781766de8163dde7b4b54305293defda
 vendor/lib64/libadsp_default_listener.so|33f44a23edf2cf734658e762a19dfc207b1921b8
@@ -67,6 +68,7 @@ system_ext/lib64/libaptXHD_encoder.so|e13fa70c97caaa24d061678bdee608eb8850a69e
 # CDSP - from Miui 13.0.3.0
 vendor/bin/cdsprpcd|f6d629d575bc76114fab248c5b99a4c5da3fd0db
 vendor/etc/init/vendor.qti.cdsprpc-service.rc|36772b70216796e8ef19376d9c6a81ee9ffff549
+vendor/lib/libcdsp_default_listener.so|7949a156e2fced7a60cb4099cc4ab274c3504d7e
 vendor/lib/libcdsprpc.so|c094e50ec5a62203ad4f4b4421cf737eb8550d29
 vendor/lib/libfastcrc.so|458fd336669a2bd861cf706540a3bba1363e768d
 vendor/lib/libfastcvdsp_stub.so|571929bad29dff06a41a2a6cfb4ef54711957f6c
