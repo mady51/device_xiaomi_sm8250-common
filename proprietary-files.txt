@@ -872,6 +872,7 @@ vendor/lib64/vendor.qti.hardware.qteeconnector@1.0.so|b37dd4d3819fc098f210b0c064
 
 # Touchfeature
 vendor/bin/hw/vendor.xiaomi.hardware.touchfeature@1.0-service
+vendor/bin/toucheventcheck
 vendor/etc/init/vendor.xiaomi.hardware.touchfeature@1.0-service.rc
 vendor/lib64/hw/vendor.xiaomi.hardware.touchfeature@1.0-impl.so
 
