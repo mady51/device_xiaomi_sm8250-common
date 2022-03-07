@@ -252,6 +252,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     Snap
 
+# Gcam
+    PRODUCT_PACKAGES += \
+    GoogleCamera
+
 # Configstore
 PRODUCT_PACKAGES += \
     disable_configstore
